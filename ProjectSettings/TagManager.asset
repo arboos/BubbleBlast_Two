@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Wall
+  - LevelButton
+  - Grass
+  - Wood
+  - Leaves
+  - Rock
   layers:
   - Default
   - TransparentFX
