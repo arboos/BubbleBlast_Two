@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using YG;
@@ -15,9 +16,7 @@ public class GameManager : MonoBehaviour
     public List<GameObject> enemyList;
     public Animator Cell;
 
-
-    
-
+    public TextMeshProUGUI mobsKilled;
 
     public GameObject winMask;
     public GameObject pauseMask;
@@ -59,6 +58,8 @@ public class GameManager : MonoBehaviour
             YandexGame.SaveProgress();
         }
 
+        mobsKilled.text = YandexGame.savesData.mobsKilled.ToString();
+        
         StartCoroutine(WinIen());
     }
 
