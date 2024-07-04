@@ -15,14 +15,24 @@ public class GameManager : MonoBehaviour
     public List<GameObject> enemyList;
     public Animator Cell;
 
-    public AudioSource bubbleSound;
-    public AudioSource winSound;
-    public AudioSource winSound_B;
-    public GameObject fireWork;
+
     
+
 
     public GameObject winMask;
     public GameObject pauseMask;
+    
+    [Header("Firework")]
+    public GameObject firework;
+    public ParticleSystem[] fireworksParticles;
+    
+    [Header("Sounds")]
+    public AudioSource launchSound;
+    public AudioSource explosionSound;
+    public AudioSource winSound;
+    public AudioSource grass;
+    public AudioSource stone;
+    public AudioSource wood;
     
     private void Awake()
     {
@@ -41,7 +51,7 @@ public class GameManager : MonoBehaviour
     {
         Saw.Instance.gameObject.SetActive(false);
         Cell.SetTrigger("Win");
-        winSound.Play();
+
         
         if (SceneManager.GetActiveScene().buildIndex > YandexGame.savesData.levelsReached)
         {
@@ -54,13 +64,32 @@ public class GameManager : MonoBehaviour
 
     public IEnumerator WinIen()
     {
+        yield return new WaitForSeconds(0.5f);
+        firework.SetActive(true);
+        launchSound.Play();
+        winSound.Play();
+
+        yield return new WaitForSeconds(1.5f);
+        foreach (var particle in fireworksParticles)
+        {
+            particle.Play();
+        }
+        explosionSound.Play();
+        
         yield return new WaitForSeconds(2f);
 
+        firework.SetActive(false);
+        foreach (var particle in fireworksParticles)
+        {
+            particle.gameObject.SetActive(false);
+        }
+        
         winMask.SetActive(true);
     }
 
     public void LoadNext()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
@@ -72,6 +101,7 @@ public class GameManager : MonoBehaviour
     
     public void LoadMenu()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene(0);
     }
 

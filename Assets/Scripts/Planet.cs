@@ -2,12 +2,14 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using YG;
 
 public class Planet : MonoBehaviour
 {
 
     [SerializeField] private bool isEnemy;
     [SerializeField] private Color _color;
+    [SerializeField] private AudioClip deathSound;
     
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -15,6 +17,10 @@ public class Planet : MonoBehaviour
         {
             if (isEnemy)
             {
+                print(YandexGame.savesData.mobsKilled);
+                YandexGame.savesData.mobsKilled++;
+                YandexGame.SaveProgress();
+                YandexGame.NewLeaderboardScores("Mobs", YandexGame.savesData.mobsKilled);
                 GetComponent<SpriteRenderer>().color = new Color(_color.r, _color.g, _color.b, 0.6f);
                 GetComponent<SpriteRenderer>().sprite = GameManager.Instance.Kliaksa;
                 ParticleSystem particles = Instantiate(Saw.Instance.enemyCollision);
@@ -22,8 +28,9 @@ public class Planet : MonoBehaviour
                 particles.startColor = new Color(_color.r, _color.g, _color.b, 1f);
                 particles.Play();
 
-                AudioSource bubbleSound = Instantiate(GameManager.Instance.bubbleSound);
-                bubbleSound.Play();
+                AudioSource deathSource = Instantiate(GameManager.Instance.winSound);
+                deathSource.clip = deathSound;
+                deathSource.Play();
                 
                 Destroy(GetComponent<BoxCollider2D>());
 
@@ -33,7 +40,7 @@ public class Planet : MonoBehaviour
                     GameManager.Instance.Win();
                 }
 
-                Destroy(bubbleSound.gameObject, 1f);
+                Destroy(deathSource.gameObject, 1f);
                 Destroy(particles.gameObject, 1f);
             }
             else

@@ -145,3 +145,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isEnemy: 1
   _color: {r: 1, g: 1, b: 1, a: 0}
+  deathSound: {fileID: 8300000, guid: 6d753edca69f34749a918f921440b940, type: 3}

@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -12,6 +13,7 @@ public class UI_Menu : MonoBehaviour
 
     public Sprite redButton;
     public Sprite greenButton;
+    public TextMeshProUGUI mobsKilled;
 
     private void Awake()
     {
@@ -31,6 +33,7 @@ public class UI_Menu : MonoBehaviour
         
         LevelsReached = YandexGame.savesData.levelsReached;
 
+        mobsKilled.text = YandexGame.savesData.mobsKilled.ToString();
         if (LevelsReached < 10)
         {
             LevelsReached++;

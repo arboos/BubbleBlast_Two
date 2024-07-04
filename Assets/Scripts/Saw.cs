@@ -87,13 +87,33 @@ public class Saw : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Wall"))
+        if (other.gameObject.CompareTag("Grass"))
         {
             ParticleSystem particles = Instantiate(wallCollision);
             particles.transform.position = other.GetContact(0).point;
             particles.Play();
 
-            wallSounds[Random.Range(0, wallSounds.Length-1)].Play();
+            GameManager.Instance.grass.Play();
+            
+            Destroy(particles.gameObject, 1f);
+        }
+        else if (other.gameObject.CompareTag("Wood"))
+        {
+            ParticleSystem particles = Instantiate(wallCollision);
+            particles.transform.position = other.GetContact(0).point;
+            particles.Play();
+
+            GameManager.Instance.wood.Play();
+            
+            Destroy(particles.gameObject, 1f);
+        }
+        else if (other.gameObject.CompareTag("Stone"))
+        {
+            ParticleSystem particles = Instantiate(wallCollision);
+            particles.transform.position = other.GetContact(0).point;
+            particles.Play();
+
+            GameManager.Instance.stone.Play();
             
             Destroy(particles.gameObject, 1f);
         }

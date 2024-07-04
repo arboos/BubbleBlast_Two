@@ -1,5 +1,5 @@
 {
-  "idSave": 3,
+  "idSave": 46,
   "isFirstSession": false,
   "language": "en",
   "promptDone": false,
@@ -10,5 +10,6 @@
     true,
     false
   ],
-  "levelsReached": 3
+  "levelsReached": 3,
+  "mobsKilled": 43
 }
