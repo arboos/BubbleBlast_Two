@@ -213,7 +213,7 @@ MonoBehaviour:
     id: 0
     ja: 0
     it: 0
-    de: 0
+    de: 1
     hi: 0
   fonts:
     defaultFont:

@@ -17,6 +17,8 @@ public class GameManager : MonoBehaviour
 
     public AudioSource bubbleSound;
     public AudioSource winSound;
+    public AudioSource winSound_B;
+    public GameObject fireWork;
     
 
     public GameObject winMask;

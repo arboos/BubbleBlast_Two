@@ -298,10 +298,10 @@ RectTransform:
   - {fileID: 113156704}
   m_Father: {fileID: 1773442847}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0.5816807}
-  m_AnchoredPosition: {x: 0, y: 0.75}
-  m_SizeDelta: {x: 0, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0.08641027}
+  m_AnchorMax: {x: 1, y: 0.6712052}
+  m_AnchoredPosition: {x: 0, y: -1}
+  m_SizeDelta: {x: 0, y: -1.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &113156703
 GameObject:
@@ -338,7 +338,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.66300005, y: 0.020128628}
   m_AnchorMax: {x: 0.97200006, y: 0.15387553}
-  m_AnchoredPosition: {x: -0.44000244, y: -1.3632965}
+  m_AnchoredPosition: {x: -0.44000244, y: -1.3633118}
   m_SizeDelta: {x: -2.01, y: -1.6702995}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &113156705
@@ -412,10 +412,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 517891737}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.21271266, y: 0.6558068}
-  m_AnchorMax: {x: 0.810329, y: 0.9066807}
-  m_AnchoredPosition: {x: -1, y: 1}
-  m_SizeDelta: {x: 4.8286133, y: 7.2020874}
+  m_AnchorMin: {x: 0.21271266, y: 0.7783146}
+  m_AnchorMax: {x: 0.80798024, y: 0.9066807}
+  m_AnchoredPosition: {x: -1, y: 0.97109985}
+  m_SizeDelta: {x: 4.8286, y: 7.2598}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &136474760
 MonoBehaviour:
@@ -437,8 +437,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u041D\u0443\u0431\u0438\u043A \u0438 \u041F\u0438\u043B\u0430: \u041F\u043E\u0431\u0435\u0433
-    \u043E\u0442 \u0425\u0435\u0440\u043E\u0431\u0440\u0438\u043D\u0430!"
+  m_text: "\u0420\u0430\u0441\u043F\u0438\u043B\u0438 \u043C\u043E\u0431\u043E\u0432!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 76293d887268f1c4bbd851bdd78e58bb, type: 2}
   m_sharedMaterial: {fileID: -95731815013120590, guid: 76293d887268f1c4bbd851bdd78e58bb, type: 2}
@@ -465,7 +464,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 51.65
+  m_fontSize: 69.2
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -532,10 +531,9 @@ MonoBehaviour:
   textLComponent: {fileID: 0}
   infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
   text: 
-  ru: "\u041D\u0443\u0431\u0438\u043A \u0438 \u041F\u0438\u043B\u0430: \u041F\u043E\u0431\u0435\u0433
-    \u043E\u0442 \u0425\u0435\u0440\u043E\u0431\u0440\u0438\u043D\u0430"
-  en: 'Nubik and Saw: Escape from Herobrine'
-  tr: "Nubik ve Testere: Herobrin'den Ka\xE7\u0131\u015F"
+  ru: "\u0420\u0430\u0441\u043F\u0438\u043B\u0438 \u043C\u043E\u0431\u043E\u0432!"
+  en: Cut up the mobs!
+  tr: "\xC7eteleri kesin!"
   az: 
   be: 
   he: 
@@ -558,16 +556,16 @@ MonoBehaviour:
   id: 
   ja: 
   it: 
-  de: 
+  de: Zerschneidet die Mobs!
   hi: 
   changeOnlyFont: 0
   fontNumber: 0
   uniqueFont: {fileID: 0}
   additionalText: {fileID: 0}
   textHeight: 20
-  processTranslateLabel: 0/3 completed
+  processTranslateLabel: 4/4 completed
   componentTextField: 1
-  countLang: 0
+  countLang: 4
 --- !u!1 &140104033
 GameObject:
   m_ObjectHideFlags: 0
@@ -1055,7 +1053,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 554f8167294ef284a8de8c53ac4ae8ee, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2e015fbe4b692c54098bf27f1b961374, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3373,7 +3371,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u0414\u043E\u043C \u0425\u0435\u0440\u043E\u0431\u0440\u0438\u043D\u0430!"
+  m_text: "\u0422\u043E\u043B\u044C\u043A\u043E 1% \u0441\u043C\u043E\u0436\u0435\u0442
+    \u043F\u0440\u043E\u0439\u0442\u0438 \u044D\u0442\u043E\u0442 \u0443\u0440\u043E\u0432\u0435\u043D\u044C"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 76293d887268f1c4bbd851bdd78e58bb, type: 2}
   m_sharedMaterial: {fileID: -95731815013120590, guid: 76293d887268f1c4bbd851bdd78e58bb, type: 2}
@@ -3400,7 +3399,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 33.9
+  m_fontSize: 22.15
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3467,9 +3466,10 @@ MonoBehaviour:
   textLComponent: {fileID: 0}
   infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
   text: 
-  ru: "\u0414\u043E\u043C \u0425\u0435\u0440\u043E\u0431\u0440\u0438\u043D\u0430!"
-  en: Herobrine's House!
-  tr: "Herobrine'\u0131n Evi!"
+  ru: "\u0422\u043E\u043B\u044C\u043A\u043E 1% \u0441\u043C\u043E\u0436\u0435\u0442
+    \u043F\u0440\u043E\u0439\u0442\u0438 \u044D\u0442\u043E\u0442 \u0443\u0440\u043E\u0432\u0435\u043D\u044C"
+  en: Only 1% will be able to pass this level
+  tr: "Sadece %1'i bu seviyeyi ge\xE7ebilecek"
   az: 
   be: 
   he: 
@@ -3492,16 +3492,16 @@ MonoBehaviour:
   id: 
   ja: 
   it: 
-  de: 
+  de: "Nur 1 % wird dieses Niveau erreichen k\xF6nnen"
   hi: 
   changeOnlyFont: 0
   fontNumber: 0
   uniqueFont: {fileID: 0}
   additionalText: {fileID: 0}
   textHeight: 20
-  processTranslateLabel: 3/3 completed
+  processTranslateLabel: 4/4 completed
   componentTextField: 1
-  countLang: 3
+  countLang: 4
 --- !u!1 &2055912018
 GameObject:
   m_ObjectHideFlags: 0
