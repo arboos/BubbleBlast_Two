@@ -6939,6 +6939,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 402941030}
+  uniqueFontTMP: {fileID: 0}
   textLComponent: {fileID: 0}
   infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
   text: 
@@ -6967,14 +6969,14 @@ MonoBehaviour:
   id: 
   ja: 
   it: 
-  de: 
+  de: Pause
   hi: 
   changeOnlyFont: 0
   fontNumber: 0
   uniqueFont: {fileID: 0}
   additionalText: {fileID: 0}
   textHeight: 20
-  processTranslateLabel: 0/3 completed
+  processTranslateLabel: 0/4 completed
   componentTextField: 1
   countLang: 0
 --- !u!1 &435191099
@@ -7716,6 +7718,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 564443998}
+  uniqueFontTMP: {fileID: 0}
   textLComponent: {fileID: 0}
   infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
   text: 
@@ -8005,8 +8009,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.0016498566, y: -0.0039999485, z: 0}
-    m_Extent: {x: 7.70885, y: 7.7065, z: 0}
+    m_Center: {x: 0.0042500496, y: 0.0010001659, z: 0}
+    m_Extent: {x: 7.71145, y: 7.7146997, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -8828,6 +8832,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 748126376}
+  uniqueFontTMP: {fileID: 0}
   textLComponent: {fileID: 0}
   infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
   text: 
@@ -8864,9 +8870,9 @@ MonoBehaviour:
   uniqueFont: {fileID: 0}
   additionalText: {fileID: 0}
   textHeight: 20
-  processTranslateLabel: 4/4 completed
+  processTranslateLabel: 0/4 completed
   componentTextField: 1
-  countLang: 4
+  countLang: 0
 --- !u!1 &750716149 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2211564899198745197, guid: caf9732433f4dc044845763962493607, type: 3}
@@ -9081,7 +9087,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.9921875, y: 1}
     newSize: {x: 0.89584935, y: 18.930973}
     adaptiveTilingThreshold: 0.5
     drawMode: 2
@@ -16130,8 +16136,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.0015001297, y: -0.0020999908, z: 0}
-    m_Extent: {x: 7.7166, y: 7.7123, z: 0}
+    m_Center: {x: -0.0022499561, y: -0.004999876, z: 0}
+    m_Extent: {x: 7.7126503, y: 7.7130003, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -16353,7 +16359,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.9921875, y: 1}
     newSize: {x: 0.89584935, y: 18.930973}
     adaptiveTilingThreshold: 0.5
     drawMode: 2
@@ -16538,7 +16544,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.9921875, y: 1}
     newSize: {x: 1, y: 10}
     adaptiveTilingThreshold: 0.5
     drawMode: 2
@@ -28746,6 +28752,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 1634036550}
+  uniqueFontTMP: {fileID: 0}
   textLComponent: {fileID: 0}
   infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
   text: 
@@ -28781,9 +28789,9 @@ MonoBehaviour:
   uniqueFont: {fileID: 0}
   additionalText: {fileID: 0}
   textHeight: 20
-  processTranslateLabel: 4/4 completed
+  processTranslateLabel: 0/4 completed
   componentTextField: 1
-  countLang: 4
+  countLang: 0
 --- !u!114 &1634036550
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29181,7 +29189,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.9921875, y: 1}
     newSize: {x: 1, y: 10}
     adaptiveTilingThreshold: 0.5
     drawMode: 2
@@ -36755,6 +36763,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f34f36451b093ee4c83ad4aa5459d2ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textMPComponent: {fileID: 2127721529}
+  uniqueFontTMP: {fileID: 0}
   textLComponent: {fileID: 0}
   infoYG: {fileID: 11400000, guid: 162644796a8b0d044bce3d6fda0641e3, type: 2}
   text: 
@@ -36790,9 +36800,9 @@ MonoBehaviour:
   uniqueFont: {fileID: 0}
   additionalText: {fileID: 0}
   textHeight: 20
-  processTranslateLabel: 4/4 completed
+  processTranslateLabel: 0/4 completed
   componentTextField: 1
-  countLang: 4
+  countLang: 0
 --- !u!1001 &199626121181828370
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36884,8 +36894,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 1
   m_LocalBounds:
-    m_Center: {x: 0.0073242188, y: 0.001953125, z: 0}
-    m_Extent: {x: 3546.9502, y: 3546.9531, z: 0}
+    m_Center: {x: -0.0008544922, y: 0.0018310547, z: 0}
+    m_Extent: {x: 3546.9585, y: 3546.957, z: 0}
   m_PointLightInnerAngle: 0
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0

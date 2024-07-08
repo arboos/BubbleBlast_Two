@@ -6,7 +6,19 @@ public class DontDestroyOnLoad : MonoBehaviour
 {
     void Start()
     {
-        DontDestroyOnLoad(this);
+        GameObject[] music = GameObject.FindGameObjectsWithTag("Music");
+        foreach (var mus in music)
+        {
+            if (mus != gameObject)
+            {
+                Destroy(mus);
+            }
+            else
+            {
+                DontDestroyOnLoad(this);
+            }
+        }
+        
     }
 
 }

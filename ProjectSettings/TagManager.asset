@@ -12,6 +12,7 @@ TagManager:
   - Leaves
   - Rock
   - Stone
+  - Music
   layers:
   - Default
   - TransparentFX
