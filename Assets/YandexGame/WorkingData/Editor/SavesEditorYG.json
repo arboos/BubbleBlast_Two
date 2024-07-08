@@ -1,15 +1,15 @@
 {
-  "idSave": 242,
-  "isFirstSession": false,
-  "language": "en",
-  "promptDone": false,
-  "money": 1,
-  "newPlayerName": "Hello!",
-  "openLevels": [
-    false,
-    true,
-    false
-  ],
-  "levelsReached": 3,
-  "mobsKilled": 239
+    "idSave": 980,
+    "isFirstSession": false,
+    "language": "en",
+    "promptDone": false,
+    "money": 1,
+    "newPlayerName": "Hello!",
+    "openLevels": [
+        false,
+        true,
+        false
+    ],
+    "levelsReached": 9,
+    "mobsKilled": 971
 }
